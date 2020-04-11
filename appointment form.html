@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+input[type=text], input[type=E-mail] , input[type=password], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 50%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+<title>
+</title>
+</head>
+<body background="form img.jpg"
+background-repeat: no repeat;
+topmargin="75" leftmargin="75" marginwidth="75" marginheight="50" 
+>
+ 
+<div>
+   <form action="process.php">
+<center> 
+
+<label for="fname">First Name</label>
+    <input type="text" name="firstname" placeholder="Your name..">
+
+
+<label for="lname">Last Name</label>
+ <input type="text" name="lastname" placeholder="Your last name..">
+
+
+
+<p>E-mail
+    <input type="E-mail" placeholder="Enter your E-mail..">
+</p> 
+
+
+<p>password
+<input type="Password" placeholder="Password">
+</p> 
+
+
+<p>Gender</br>
+<input type="radio" name="Gender" value="male" checked> male
+<input type="radio" name="Gender" value="female"> female</br>
+</p> 
+
+<p>
+<input type="submit" value="Book Apointment">
+</p>   </center>
+
+</form>   
+
+</div>
+    
+</body>
+</html>
